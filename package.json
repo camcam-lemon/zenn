@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "zenn preview"
+    "start": "zenn preview",
+    "lint": "textlint articles"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "textlint": "^12.1.0",
+    "textlint": "^12.2.1",
     "textlint-rule-preset-ja-spacing": "^2.2.0",
     "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
-    "zenn-cli": "^0.1.106"
+    "zenn-cli": "^0.1.116"
   }
 }
