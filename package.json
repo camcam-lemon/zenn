@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "zenn preview",
+    "article": "zenn new:article",
     "lint:text": "textlint --cache $(git diff main --name-only) -f pretty-error",
     "fix": "textlint --cache $(git diff main --name-only) --fix"
   },
